@@ -1,0 +1,21 @@
+2023-04-18 11:08:26,603 DEBUG cd frappe-bench && python3 -m venv env
+2023-04-18 11:08:29,268 DEBUG cd frappe-bench && /home/lewiih/navari/frappe-bench/frappe-bench/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2023-04-18 11:08:31,694 DEBUG cd frappe-bench && /home/lewiih/navari/frappe-bench/frappe-bench/frappe-bench/env/bin/python -m pip install --quiet wheel
+2023-04-18 11:08:33,089 LOG Getting frappe
+2023-04-18 11:08:33,089 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2023-04-18 11:08:55,091 LOG Installing frappe
+2023-04-18 11:08:55,092 DEBUG cd /home/lewiih/navari/frappe-bench/frappe-bench/frappe-bench && /home/lewiih/navari/frappe-bench/frappe-bench/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/lewiih/navari/frappe-bench/frappe-bench/frappe-bench/apps/frappe 
+2023-04-18 11:09:58,414 DEBUG cd /home/lewiih/navari/frappe-bench/frappe-bench/frappe-bench/apps/frappe && yarn install
+2023-04-18 11:10:39,024 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-04-18 11:10:39,024 DEBUG cd frappe-bench && bench build
+2023-04-18 11:10:39,160 INFO /home/lewiih/.local/bin/bench build
+2023-04-18 11:11:01,194 LOG setting up backups
+2023-04-18 11:11:01,268 LOG backups were set up
+2023-04-18 11:11:01,268 INFO Bench frappe-bench initialized
+2023-04-18 11:19:23,071 INFO /home/lewiih/.local/bin/bench new-app library_management
+2023-04-18 11:19:23,075 LOG creating new app library_management
+2023-04-18 11:21:16,514 LOG Installing library_management
+2023-04-18 11:21:16,515 DEBUG cd /home/lewiih/navari/frappe-bench/frappe-bench/frappe-bench && /home/lewiih/navari/frappe-bench/frappe-bench/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/lewiih/navari/frappe-bench/frappe-bench/frappe-bench/apps/library_management 
+2023-04-18 11:21:17,859 DEBUG bench build --app library_management
+2023-04-18 11:21:17,988 INFO /home/lewiih/.local/bin/bench build --app library_management
+2023-04-18 11:21:22,962 WARNING restart failed: Couldn't find supervisorctl in PATH
